@@ -1,0 +1,16 @@
+
+<div id="appHeader">
+  <div id="header-title">
+    <span>Beans Love Beers</span>
+  </div>
+  <div id="nav-container">
+
+    <nav>
+        <a class="activeLink" [ngClass]="{'activeLink':isHomeActive}" (click)="ClickedHomeLink()" routerLink="/home" routerLinkActive="active">Home</a>
+        <a routerLink="/favourite" [ngClass]="{'activeLink':isFavActive}" (click)="ClickedFavLink()" routerLinkActive="active">Favourites</a>
+    </nav>
+    
+   </div>
+</div>
+
+<router-outlet></router-outlet>

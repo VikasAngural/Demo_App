@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+.beer-card-container{
+    min-width: 890px;
+    float: left;
+    width: 100%;
+}
+.beer-card{
+    width: 30%;
+    float: left;
+    margin: 1.6%;
+    height: 225px;
+    /* margin: 12px; */
+}
+
+.media-container{
+    float: left;
+    padding: 0.5em;
+}
+/* .img-container{
+    float: left;
+    width: 30%;
+    padding: 1.2em;
+} */
+.beerDetails{
+    float: left;
+    width: 70%;
+    padding: 0.5em;
+}
+.beerName{font-size: 18px;
+    font-weight: bold;
+}
+.multiline-ellipsis {
+    overflow: hidden;
+    position: relative;
+    line-height: 1.5em;
+    max-height: 9em;
+    text-align: justify;
+    padding-right: 10px;
+  }
+  .multiline-ellipsis:before {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .multiline-ellipsis:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: white;
+  }

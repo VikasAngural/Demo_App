@@ -1,0 +1,31 @@
+#appHeader{
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: #408861;
+}
+#nav-container{
+    float: right;
+    padding: 0.7em;
+}
+#nav-container a{
+    color: #fff;
+    margin-right: 10px;
+}
+#nav-container a:hover{
+    color: #000;
+}
+#header-title{
+    float: left;
+    padding: 0.45em;
+    font-size: 1.3em;
+    color: #fff;
+}
+.activeLink{
+    color: #d89ca4 !important;
+    font-weight: bold;
+}
+.de-activeLink{
+    color: #fff !important;
+    font-weight: normal;
+}
